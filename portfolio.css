@@ -1,0 +1,292 @@
+@media only screen and (min-width: 600px) {
+body{
+    background-color: rgb(240, 212, 212);
+}
+p{  
+    display: flexbox;
+   max-width: 100%;
+   }
+   img {
+    flex-wrap: wrap;
+    }
+
+#card-group img{
+    display: flexbox;
+    width: 60%;
+
+}
+#lericettedikikkalove img{
+    width: 50%;
+    display: flexbox;
+}
+
+#c1 {
+    background-color: rgb(111, 172, 148);
+    grid-area: header;
+    text-align: center;
+    width: 75%;
+    }
+    #c1 img{
+        max-width: 65%;
+    }
+    #c2 {
+      
+        background-color: rgb(215, 241, 250);
+                grid-area: menu;
+                width: 75%;
+                } 
+                #c2 img{
+                    max-width: 60%;
+                }
+
+    #c3 {
+                    background-color: rgb(111, 172, 148);
+                grid-area: main;
+                width: 90%;
+            }
+        #c3 img{
+                max-width: 80%;
+            }
+
+#c4 {
+    background-color:rgb(249, 183, 183);
+        grid-area: footer;
+        }
+  #c5{
+    grid-area: content;
+    width: 90%;
+    background-color: rgb(215, 241, 250);
+  }  
+  #c5 img{
+    max-width: 80%;
+  }
+#container {
+            
+            display:grid;
+             grid-template-areas:
+            'header header content content'
+            'menu menu main main'
+            'destra destra destra destra'
+            'footer footer footer footer';
+            }
+
+
+#carouselExampleIndicators{
+    width: 40%;
+}
+
+#carouselExample{
+    width: 45%;
+}
+
+  
+
+
+
+    #container2 {
+      
+       display:grid;
+        grid-template-areas:
+       'header header content content'
+       'menu menu main main'
+       'destra destra destra destra'
+       'footer footer footer footer';
+       }
+       #c6 {
+           background-color:  rgb(111, 172, 148);
+           grid-area: header;
+           text-align: center;
+           width: 85%;
+           height: 100%;
+           }
+           #c6 img{
+               max-width: 65%;
+           }
+           #c7 {
+             
+               background-color: rgb(215, 241, 250);
+                       grid-area: menu;
+                       width: 85%;
+                       
+                       } 
+                       #c7 img{
+                           width: 65%;
+                       }
+       
+           #c8 {
+                           background-color: rgb(111, 172, 148);
+                       grid-area: main;
+                       width: 85%;
+                    
+                   }
+               #c8 img{
+                       max-width: 45%;
+                   }
+       
+         #c9{
+           grid-area: content;
+           width: 85%;
+           background-color: rgb(215, 241, 250);
+           height: 100%;
+         }  
+         #c9 img{
+           width: 40%;
+         }
+
+#main{ 
+    background-color: rgb(240, 212, 212);
+
+} 
+}    
+    
+
+    
+ @media only screen and (max-width: 600px) {
+     
+        body{
+            background-color: rgb(240, 212, 212);
+        }
+        p{  
+            display: flexbox;
+           max-width: 50%;
+           }
+          
+        
+        #card-group img{
+            display: flexbox;
+            width: 60%;
+        
+        }
+        #lericettedikikkalove img{
+            width: 50%;
+            display: flexbox;
+        }
+        
+        #c1 {
+            background-color:  rgb(111, 172, 148);
+            grid-area: header;
+            text-align: center;
+           max-width: 60%;
+            }
+            #c1 img{
+                max-width: 60%;
+            }
+            #c2 {
+              
+                background-color: rgb(215, 241, 250);
+                        grid-area: menu;
+                        max-width: 60%;
+                        } 
+                        #c2 img{
+                            max-width: 60%;
+                        }
+        
+            #c3 {
+                            background-color: rgb(111, 172, 148);
+                        grid-area: menu;
+                        max-width: 60%;
+                        display: flexbox
+                    }
+                #c3 img{
+                        max-width: 60%;
+                        display: flexbox;
+                    }
+        
+        #c4 {
+            background-color: rgb(249, 183, 183);
+                grid-area: footer;
+                }
+                #c5 {
+              
+                    background-color: rgb(215, 241, 250);
+                            grid-area: menu;
+                            max-width: 60%;
+                            } 
+                            #c5 img{
+                                max-width: 60%;
+                            }
+        #container {
+                   
+                 display:flexbox;
+                 flex-direction: column;
+                    
+        
+                }
+                #container2 {
+                    display:flexbox;
+                    flex-direction: column;
+                     grid-template-areas:
+                    'header header content content'
+                    'menu menu main main'
+                    'destra destra destra destra'
+                    'footer footer footer footer';
+                    }
+                    #c6 {
+                        background-color:  rgb(111, 172, 148);
+                        grid-area: header;
+                        text-align: center;
+                        max-width: 60%;
+                   
+                        }
+                        #c6 img{
+                            max-width: 60%;
+                            display: flexbox;
+                        }
+                        #c7 {
+                          
+                            background-color: rgb(215, 241, 250);
+                                    grid-area: menu;
+                                    max-width: 60%;
+                                    display: flexbox;
+                                    
+                                    } 
+                                    #c7 img{
+                                        max-width: 60%;
+                                        display: flexbox;
+                                    }
+                    
+                        #c8 {
+                                        background-color: rgb(111, 172, 148);
+                                    grid-area: main;
+                                    max-width: 60%;
+                                 
+                                }
+                            #c8 img{
+                                    max-width: 60%;
+                                }
+                    
+                      #c9{
+                        grid-area: content;
+                        max-width: 60%;
+                        background-color: rgb(215, 241, 250);
+                        
+                      }  
+                      #c9 img{
+                        max-width: 60%;
+                      }
+                      h1{  
+                        display: flexbox;
+                       max-width: 40%;
+                       }
+                       #contatti{
+                        display: flexbox;
+                        max-width: 40%;
+                       }
+                       #carouselExampleIndicators{
+                        max-width: 40%;
+                    }
+                    
+                    #carouselExample{
+                        max-width: 45%;
+                    }
+                    #main{ 
+                        background-color: rgb(240, 212, 212);
+                    
+                    } 
+                    #homeportfolio img{
+                        max-width: 35%;
+                        display: flexbox;
+                    }
+                   
+            }
+        
